@@ -19,10 +19,15 @@ function computerPlay() {
     }
 }
 
+function userPlay(){
+    playerSelection = prompt("Choose (Rock,Paper or Scissors)");
+   return playerSelection = playerSelection.charAt(0).toUpperCase() + playerSelection.slice(1).toLowerCase();
+
+}
+
 function playRound(playerSelection, computerSelection) {
     
-    playerSelection = prompt("Choose (Rock,Paper or Scissors)");
-    playerSelection = playerSelection.charAt(0).toUpperCase() + playerSelection.slice(1).toLowerCase();
+    playerSelection = userPlay();
     computerSelection = computerPlay();
        
     if (playerSelection === "Rock") {
