@@ -21,8 +21,7 @@ function computerPlay() {
 
 function userPlay(){
     playerSelection = prompt("Choose (Rock,Paper or Scissors)");
-   return playerSelection = playerSelection.charAt(0).toUpperCase() + playerSelection.slice(1).toLowerCase();
-
+    return playerSelection = playerSelection.charAt(0).toUpperCase() + playerSelection.slice(1).toLowerCase();
 }
 
 function playRound(playerSelection, computerSelection) {
