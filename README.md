@@ -7,7 +7,7 @@
     -Paper beats Rock  
     -Scissors beats Paper  
 [x] -If both same, it's draw, for example rock vs rock.  
-[] When the game over,show the screen that who is won.  
+[x] When the game over,show the screen that who is won.  
 
 ## Functions
 [x] Starts with computerPlay function that will return ‘Rock’, ‘Paper’ or ‘Scissors’   
