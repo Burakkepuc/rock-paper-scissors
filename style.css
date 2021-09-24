@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #316B83;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+button{
+    margin: 2.5em;
+}
+#container{
+}
+.btn1,.btn2,.btn3{
+    border-radius: 50%;
+    padding: 11em;
+    background-image: url(img/rock.png);
+    background-position: center;
+    width: 10px;
+    height: 10px;
+
+
+}
+.btn2{
+    background-image: url(img/paper.png);
+
+}
+.btn3{
+    background-image: url(img/scissors.png);
+}
+
+.para,.para2{
+    font-size: 1.4em;
+}
+
+.click:hover{
+    position: relative;
+   top:-15px;
+    cursor: pointer;
+}   
+
+ .footer {
+     color: #FFC069;
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+ }
+
+
+

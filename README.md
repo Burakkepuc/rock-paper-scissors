@@ -1,4 +1,4 @@
-## ROCK PAPER SCISSORS GAME
+# ROCK PAPER SCISSORS GAME
 
 
 [x] There are 3 objects rock, paper and scissors.  
@@ -10,7 +10,7 @@
 [x] -If both same, it's draw, for example rock vs rock.  
 [x] When the game over,show the screen that who is won.  
 
-# Functions
+## Functions
 [x] Starts with computerPlay function that will return ‘Rock’, ‘Paper’ or ‘Scissors’  
 [x] Write a function that plays a single round of   
 ‘Rock’, ‘Paper’ or ‘Scissors’. The function should take two parameters - the playerSelection and computerSelection - and then return a string that declares the winner of the round like so: "You Lose! Paper beats Rock"
@@ -19,4 +19,11 @@
 
 
 
- 
+## User Interface
+- It was just used div container to game structure in the HTML page.   
+- It was created all elements with `document.createElement` method.  
+- All items were added inner the container with `appendChild` method.  
+- It was added css classes with `classList.add method`.  
+- EventListeners was used to click buttons.  
+
+    For UI, I try to handle as possible as job with directly javascript code. So I write code inside html modestly.
