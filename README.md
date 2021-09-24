@@ -26,4 +26,6 @@
 - It was added css classes with `classList.add method`.  
 - EventListeners was used to click buttons.  
 
-    For UI, I try to handle as possible as job with directly javascript code. So I write code inside html modestly.
+    For UI, I try to handle as possible as job with directly javascript code. So I write code inside html modestly.  
+ 
+    [Live Preview](https://burakkepuc.github.io/rock-paper-scissors/)
