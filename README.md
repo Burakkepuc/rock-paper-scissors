@@ -28,4 +28,4 @@
 
     For UI, I try to handle as possible as job with directly javascript code. So I write code inside html modestly.  
  
-    [Live Preview](https://burakkepuc.github.io/rock-paper-scissors/)
+    [Live Preview](https://burakkepuc.github.io/rock-paper-scissors/) :point_left:
